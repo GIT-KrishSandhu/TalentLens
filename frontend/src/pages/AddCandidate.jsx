@@ -1,7 +1,7 @@
 import { useState } from "react";
 import axios from "axios";
 
-const API = "http://localhost:5000";
+const API = "https://talentlens-backend-roxt.onrender.com";
 
 export default function AddCandidate() {
   const [form, setForm] = useState({
